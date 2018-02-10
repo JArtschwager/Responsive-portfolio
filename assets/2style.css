@@ -1,0 +1,90 @@
+/* second CSS style sheet to restart structure from sratch
+ */
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
+    background-color: #cccccc;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+/* may need to change these colors below later */
+header,
+nav,
+section,
+aside,
+h1,
+h2,
+h3,
+p,
+footer {
+  background-color: #cccccc;
+}
+
+header, nav {
+    padding: 40px;
+    margin: 10px o;
+}
+
+h1, h2, h3, {
+    color: #648a88;
+    padding: 20px;
+}
+
+#myname {
+    text-align: Left;
+    font-size: 30px;
+    color: #648a88;
+    
+}
+
+.aboutme {
+    font-size: 25px;
+}
+
+
+
+.container {
+    width: 960px;
+    margin: 10px auto;
+    /* display: inline-block; */
+    text-align: center;
+    clear: both;
+}
+
+.aside {
+    background: #ffffff;
+    border: #dddddd;
+    padding: 0 auto;
+    margin: 0 auto;
+    float: right;
+    width: 270px;
+    }
+
+.parabox {
+    background: #ffffff;
+    border: #dddddd;
+    padding: 0 auto;
+    margin: 0 auto;
+    float: left;
+    width: 650px;
+}
+
+.aboutme {
+    padding: 30px;
+    background: #ffffff;
+    border-bottom-color: #555;
+    border-bottom: 30px;
+    color: teal;
+    text-align: left;
+    /* margin: 10px 0; */
+}
+

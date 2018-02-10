@@ -1,0 +1,409 @@
+* {
+    box-sizing: border-box;
+    /* background: #cccccc; */
+}
+
+/* left to be completed */
+/* there still needs to be an adjustment to the code for header box and body box overlapping.  This doesn't allow the background to show between the header and "about me".  Also the code in time, will need cleaning up the more i learn what effects what. */
+
+body {
+    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    padding-top: 15px;
+    float: left;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerinternal {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#myname {
+    float: left;
+    padding: 30px;
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.mainbox {
+    width: 650px;
+    height: auto;
+    border-color: #dddddd;
+    float: left;
+    background-color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid #cccccc;
+}
+
+.form-item {
+    padding-top: 10px;
+}
+
+.form-item>label {
+    color: #777777;
+}
+
+.fn {
+    width: 100%;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid #777777;
+}
+
+.button {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sideheader {
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    float: right;
+}
+
+.sideheader>a {
+    padding-right: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.ab,
+.port {
+    border-right: 1px solid #cccccc;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mainboxtitle {
+    text-align: left;
+    font-size: 30px;
+    color: #4aaaa5;
+    /* padding-top: 30px; */
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contactboxtext>label {
+    padding: 0;
+}
+
+.self {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.pic {
+    width: 250px;
+    margin: 20px;
+}
+
+.portfolio-pic {
+    position: relative;
+    width: 250px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.pictext {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    bottom: 40px;
+    left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.mainboxbody {
+    margin-top: 20px;
+}
+
+aside {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    float: right;
+    /* display: inline; */
+    width: 270px;
+}
+
+.connectHeader {
+    text-align: left;
+    font-size: 20px;
+    color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.connectImages {
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+.connectImages>a {
+    float: left;
+    margin: 10px;
+}
+
+.connectImages>a>img {
+    width: 50px;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 10px;
+    padding: 40px;
+    color: #cccccc;
+    position: sticky
+    /* add the sticky margin at the end */
+}
+
+.push {
+    height: 50px;
+}
+
+@media screen and (max-width: 980px) {
+ 
+    .container {
+        width: 800px;
+    }
+
+    .headerinternal {
+        width: 800px;
+
+    }
+    .mainbox {
+        width: 65%;
+        margin-right: 10px;
+        
+    }
+
+    aside {
+        float: left;
+        width: 33%;
+    }
+
+    .portfolio-pic {
+    
+        margin: 0;
+        width: 100%;
+        padding-bottom: 20px;
+     
+    }
+    .pic {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .pictext {
+        left: 0;
+    }
+ }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+
+    #myname {
+        margin-top: 0;
+    }
+    .sideheader {
+        margin-top: 0;
+    }
+    .mainbox {
+        width: 95%;
+        height: auto;
+        border-color: #dddddd;
+        float: left;
+        background-color: #ffffff;
+        line-height: 25px;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: left;
+        padding: 30px;
+        border: 1px solid #cccccc;
+        margin: 20px;
+    }
+    header {
+        padding-top: 0;
+        float: left;
+        background: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        width: 100%;
+        margin: 0 auto;
+        
+        /*  position: static; */
+    }
+    .sideheader {
+        float: none;
+        padding-bottom: 10px;
+    }   
+    .headerinternal {
+        width: 100%;
+        margin: 0 auto;
+    }
+    aside {
+        width: 95%;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        
+}
+        
+        
+    }
+    footer {
+        width: 100%;
+        
+    }
+
+
+
+
+@media screen and (max-width: 640px) {
+    /* body {} */
+    .container {
+        width: 100%;
+        margin: 0;
+       
+    }
+    #myname {
+        width: 100%;
+    }
+    .mainbox {
+        width: auto;
+        background-color: #ffffff;
+        line-height: 25px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        /* margin: 10px; */
+        float: none;
+        /* position: ; */
+   
+    }
+
+ 
+    .self {
+        width: 100%;
+    }
+    header {
+        padding-top: 0;
+        float: left;
+        background: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        width: 100%;
+        margin-bottom: 20px;
+        position: static;
+    }
+
+ .sideheader {
+    margin-top: 0;
+     padding-bottom: 10px;
+    float: none;
+ }   
+
+ .sideheader > a {
+    padding-right: 10px;
+    color: inherit;
+    margin: 20px;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.headerinternal {
+    width: auto;
+    margin: 0 auto;
+    
+}
+    aside {
+        width: 95%;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        
+}
+
+.mainboxtitle {
+    width: auto;
+}
+
+.button {
+    width: auto;
+
+}
+
+
+.portfolio-pic {
+    
+    margin: 0;
+    width: 100%;
+ 
+}
+.pic {
+    width: 100%;
+    margin: 0;
+}
+
+.pictext {
+    left: 0;
+}
+
+/* .form-item > textarea {
+    border: .5px solid gray;
+} */
+
+}

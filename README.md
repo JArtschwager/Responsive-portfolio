@@ -1,2 +1,2 @@
-# Responsive-portfolio
-mobile responsive changes to basic portfolio
+# Basic-Portfolio
+my first website as portfolio
